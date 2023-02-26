@@ -3,16 +3,14 @@ public class Customer {
 	
 	private int customerid;
 	private String customername;
-	private String customercity;
+	private  String customercity;
 	
 	
-	Customer(){
+    public Customer(){
+//    	System.out.println(customerid+" "+customername+" "+customercity);
 		
 	}
-	
-	void display() {
-		System.out.println(customerid+" "+customername+" "+customercity);
-	}
+
 	
 	public int getCustomerid() {
 		return customerid;
@@ -23,13 +21,13 @@ public class Customer {
 	public String getCustomername() {
 		return customername;
 	}
-	public void setCustomername(String customerid) {
+	public void setCustomername(String customername) {
 		this.customername = customername;
 	}
 	public String getCustomercity() {
 		return customercity;
 	}
-	public void setCustomercity(String customerid) {
+	public void setCustomercity(String customercity) {
 		this.customercity = customercity;
 	}
 	

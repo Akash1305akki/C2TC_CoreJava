@@ -8,11 +8,12 @@ public class ConstructorDemo {
 		c1.setCustomername("Akash");
 		c1.setCustomercity("Chennai");
 		
-Customer c2 = new Customer();
+        Customer c2 = new Customer();
 		
 		c2.setCustomerid(2);
 		c2.setCustomername("Siva");
 		c2.setCustomercity("Chengalpattu");
+		
 		
 		
 		System.out.println(c1.getCustomerid());

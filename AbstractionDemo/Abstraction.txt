@@ -1,0 +1,58 @@
+ABSTRACTION:-
+
+- Process of hiding the implementation details and showing only functionality to
+the user.
+
+- For example, sending SMS where you type the text and send the message. You
+don't know the internal processing about the message delivery.
+
+- Ways to achieve Abstraction:
+
+             1) Abstract class (0 to 100%)
+
+             2) Interface (100%)
+           
+-----------------------------------------------------------------------------------
+
+1) Abstract class (0 to 100%):-       
+           
+- A class which is declared with the abstract keyword
+
+- It can have abstract and non-abstract methods (method with the body).
+
+- It needs to be extended and its method implemented.
+
+- It cannot be instantiated.
+
+- It can have constructors and static methods also.
+
+- It can have final methods which will force the subclass not to change the body
+of the method.
+
+Syntax:
+
+          abstract void methodname;
+          
+---------------------------------------------------------------------------------      
+           
+ 2) Interface (100%):-
+ 
+ - Interface looks like a class but it is not a class.
+
+- An interface defines a set of specifications that other classes must
+implement.
+
+- An interface can have methods and variables just like the class but the
+methods declared in interface are by default abstract .
+
+Syntax:
+
+interface Bike
+    {
+    
+    String color = "blue"; // by default public static final
+    void getMileage(); //by default public abstract
+
+}
+
+---------------------------------------------------------------------------------

@@ -1,0 +1,42 @@
+- A concept by which we can perform a single action in different
+ways.
+
+- Polymorphism means many forms.
+
+- There are two ways in which polymorphism is implemented in Java.
+
+         1) Method Overloading
+
+         2) Method Overriding
+         
+ 1) Method Overloading
+ 
+ - A class has multiple methods having same name but different in
+parameters, it is known as Method Overloading.
+
+- Advantage : increases the readability of the program
+
+- Two ways to overload the method in java
+
+- By changing number of arguments
+
+- By changing the data type
+
+Note : Method Overloading is not possible by changing the return
+type of the method only.
+
+2) Method Overriding
+
+- Subclass (child class) has the same method as declared in the parent
+class
+
+- If a subclass provides the specific implementation of the method that
+has been declared by one of its parent class, it is known as method
+overriding.
+
+rules:-
+- The method must have the same name as in the parent class
+
+- The method must have the same parameter as in the parent class.
+
+- There must be an IS-A relationship (inheritance).

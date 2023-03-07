@@ -24,6 +24,7 @@ class Mymovie extends Movie{
 public class AbstractClassDemo4 {
 
 	public static void main(String[] args) {
+	        System.out.println("Title: ");
 		Scanner s = new Scanner(System.in);
 		
 		String title = s.nextLine();

@@ -24,11 +24,12 @@ class Mymovie extends Movie{
 public class AbstractClassDemo4 {
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
-		
-		String title = s.nextLine();
+		System.out.println("Title: ");
+//		Scanner s = new Scanner(System.in);
+//		
+//		String title = s.nextLine();
 		Mymovie m = new Mymovie();
-		m.setTitle(title);
+		m.setTitle("Charlie");
 
 		System.out.println("The movie title is: "+m.getTitle());
 		}

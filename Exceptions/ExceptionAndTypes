@@ -1,0 +1,28 @@
+EXCEPTIONS:-
+
+Exceptions are error's and events that occurs during program execution.
+Arise of exceptions lead to missing or mis-matched output
+
+2 types of exceptions in java:checked and unchecked exceptions.
+
+ Checked exceptions are those that are checked at compile-time and must be handled by the program
+ or declared to be thrown by the method in which they occur.
+
+ Unchecked exceptions, on the other hand, are not checked at compile-time
+ and are usually caused by programming errors or unexpected conditions.
+ 
+ Example:-
+ 
+ Input:-
+ 
+ public class Main {
+  public static void main(String[ ] args) {
+    int[] myNumbers = {1, 2, 3};
+    System.out.println(myNumbers[10]); // error!
+  }
+}
+
+Output:-
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+        at Main.main(Main.java:4)

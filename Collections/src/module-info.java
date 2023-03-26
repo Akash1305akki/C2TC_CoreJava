@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Akaah
+ *
+ */
+module Collections {
+}

@@ -1,0 +1,17 @@
+- In Java, a set interface is a type of collection that represents a group of unique elements.
+ 
+- It is part of the Java Collections Framework and defines a set of methods that can be used to manipulate
+a collection of elements, such as adding or removing elements, testing for membership,
+and performing set operations such as intersection, union, and difference.
+
+- The Set interface extends the Collection interface and specifies that each element in the set must be unique.
+
+- That is, a set cannot contain any duplicate elements.
+
+- It is implemented by several classes in the Java API, such as:
+     1) HashSet.
+     2) LinkedHashSet.
+     3) TreeSet.
+     
+     
+     

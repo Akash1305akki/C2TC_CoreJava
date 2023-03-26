@@ -1,0 +1,20 @@
+- Queue is a form of collection which supports the principle of FIFO(First- In-First-Out).
+
+- Which means if you want to remove the last element of an array under queve interface you need to remove all other elements placed before it.u
+
+- Size is constant and declared during initialization.
+
+- Values are removed from front end and inserted from rear end of the array.
+
+- To insert a element we use enQueue and remove a element we use deQueue.
+
+- deQueue is also used to print the first element in collection.
+
+Priority Queue:-
+- Unlike queue these are different type of collection whose elements are sorted in a pre-prioritized order (ascending).
+
+- They will not follow the order of insertion.
+
+Array Deque:-
+- It provides implementation of all methods in queue and dequeue interfaces.
+

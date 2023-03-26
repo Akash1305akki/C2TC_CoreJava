@@ -1,0 +1,18 @@
+- List provides the facility to maintain the ordered collection ,
+insertion order is preserved.
+
+- It contains the index-based methods to insert, update, delete and search
+the elements.
+
+- It allows the duplicate element.
+
+- Duplicate value to be stored and by using the index we can able to 
+differentiate duplicates.
+
+- We can also store the null elements in the list.
+
+- The implementation classes of List interface are: 
+1) ArrayList
+2) LinkedList
+
+- Both Share same operational methods and implementations

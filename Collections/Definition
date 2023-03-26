@@ -1,0 +1,64 @@
+Collections:-
+
+In Java, collections refer to classes and interfaces that are used to store
+and manipulate groups of objects.The Collection interface is the root interface
+of the Java Collection Framework and defines the basic methods that all collection
+classes should implement, such as adding, removing, and accessing elements.
+
+There are several types of collections in Java, including:
+
+1) List: an ordered collection of elements that can contain duplicates.
+
+2) Queue: a collection that represents a waiting line of elements, with elements added at one end and removed from the other end.
+
+3) Set: a collection that does not allow duplicates and has no defined order.
+
+4) Map: a collection that stores key-value pairs and allows fast lookup of values based on their keys.
+
+5) Stack: a collection that follows the Last-In-First-Out (LIFO) principle, with elements added and removed from the same end.
+
+Java also provides several implementation classes for each type of collection, such as
+arrayList and LinkedList for List,
+PriorityQueue for Queue,
+HashSet and TreeSet for Set,
+HashMap and TreeMap for Map,
+and Stack for Stack.
+
+
+- In general all the inputs were stored as a collection of inputs in java as a form of array-
+To access individual elements in a collection we perform the following operations:-
+
+1) For Loop
+      for(int i=0;i<refvariable.size();i++){
+      System.out.println(refvariable.get(i));
+      }
+
+2) For Each Loop
+      for(element e : ref.variable){
+      System.out.println(e);
+      }
+
+3) Iterator
+      Iterator e = refvariable.iterator();
+      while(e.hasNext())
+        {
+           System.out.println(e.next());
+        }
+
+4) ListIterator
+      ListIterator e = refvariable.iterator();
+      while(e.hasNext())
+        {
+           System.out.println(e.next());
+        }
+        while(e.hasPrevious())
+        {
+           System.out.println(e.previous());
+        }
+      
+5) SplIterator
+        SplIterator e = refvariable.spliterator();
+        spliterator.forEachRemaining(s -> System.out.println(s));  
+
+
+

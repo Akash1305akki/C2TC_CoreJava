@@ -1,0 +1,11 @@
+- In Java, a stack interface is a type of collection that represents a last-in, first-out (LIFO) data structure.
+
+- It is part of the Java Collections Framework and defines a set of methods that can be used to manipulate a stack of elements,
+such as adding or removing elements, peeking at the top element, and testing for empty stack.
+
+- The Stack interface extends the Vector class and specifies that each element in the stack
+is inserted and removed at the top of the stack.
+
+- That is, the most recently added element is always at the top of the stack and the oldest element is at the bottom.
+
+- It is implemented by several classes in the Java API, such as Stack and ArrayDeque.

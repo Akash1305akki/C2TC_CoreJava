@@ -1,0 +1,21 @@
+- In Java, the Map interface is a part of the Java Collections Framework that represents a mapping between a set of keys
+and their corresponding values.
+
+- It is used to store key-value pairs where each key is unique and the values can be retrieved based on their corresponding keys.
+
+- The Map interface provides various methods to manipulate the elements in the map, such as adding, removing, and modifying key-value pairs.
+
+- The Map interface is implemented by several classes in the Java API, such as:
+     1) HashMap,- Keys & Values will be stored in random order.
+     2) TreeMap,- Keys & Values will be stored in ascending order.
+     #) LinkedHashMap,- Keys & Values will be stored in entry order. 
+     4) Hashtable.- Keys & Values will be stored in random order.
+     
+- Each of these classes provides different implementations of the Map interface and is suitable for different use cases depending on the specific requirements.
+
+- Map's where Dictionaries in PYYHON.
+
+- Difference between Hashtable and Hashmap is:
+    Hashtable: Synchronised, so no null value can be assigned for K or V
+    
+    Hashtable: Asynchronised, so null value can be assigned for K or V

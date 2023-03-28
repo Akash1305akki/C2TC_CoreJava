@@ -1,0 +1,17 @@
+- A lambda expression in Java is a shorthand way to write anonymous functions.
+
+- Here's an example of a simple lambda expression that takes two integers and
+returns their sum:
+
+syntax:-
+(int a, int b) -> a + b
+
+("passing parameters") -> {"Statements to be executed"}
+
+- This lambda expression can be assigned to a functional interface that has
+a single abstract method with two integer parameters and an integer return type,
+such as IntBinaryOperator.
+
+- Here's an example of using this lambda expression to create a IntBinaryOperator instance:
+
+IntBinaryOperator sum = (int a, int b) -> a + b;

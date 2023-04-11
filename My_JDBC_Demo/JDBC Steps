@@ -1,0 +1,15 @@
+There are 7 steps to connect your SQL server to the ecllipse interface. Such as:
+
+1: Import the required package --> java.sql
+
+2: Load and Register the Driver --> com.mysql.jdbc.Driver
+
+3: Create Connection --> with your java credentials
+
+4: Create a statement/query to execute
+
+5: Execute the query
+
+6: Print the result
+
+7: Close the connection
